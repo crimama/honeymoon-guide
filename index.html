@@ -1,0 +1,1296 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#1b2b45">
+<title>스페인 · 포르투갈 신혼여행 가이드 | 임훈 · 오윤경</title>
+<meta name="description" content="2026-11-29 ~ 12-07 스페인·포르투갈 신혼여행 전체 가이드 — 일정, 항공·열차·티켓, 호텔, 맛집, 준비물 체크리스트, 비상연락망.">
+<style>
+:root{
+  --cream:#f7f1e6; --cream-2:#efe6d6; --paper:#fffdf8;
+  --navy:#1b2b45; --navy-2:#2b3f5f; --navy-3:#3d5476;
+  --terra:#b4552f; --terra-2:#d0784f; --terra-soft:#f6e3d8;
+  --gold:#b8934a; --olive:#6f7d55; --ok:#3f7a52;
+  --ink:#1f2c3d; --body:#3b4655; --muted:#7c7770; --line:#e4dac8; --line-2:#d5c7ae;
+  --radius:18px; --shadow:0 12px 32px rgba(27,43,69,.07);
+  --sans:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR","Segoe UI",Roboto,sans-serif;
+  --serif:Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;font-family:var(--sans);color:var(--body);background-color:var(--cream);
+  background-image:radial-gradient(circle at 12% -10%,rgba(180,85,47,.10),transparent 45%),
+                   radial-gradient(circle at 92% 6%,rgba(27,43,69,.08),transparent 40%);
+  background-repeat:no-repeat;line-height:1.62;font-size:15.5px;
+  letter-spacing:-.1px;
+}
+h1,h2,h3,h4{margin:0;color:var(--navy);line-height:1.3;letter-spacing:-.4px}
+p{margin:0}
+a{color:var(--terra);text-decoration:none}
+a:hover{text-decoration:underline}
+ul,ol{margin:0;padding:0;list-style:none}
+code,.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:.92em}
+.wrap{max-width:1080px;margin:0 auto;padding:0 18px}
+
+/* ---------- header ---------- */
+.site-header{position:sticky;top:0;z-index:60;background:rgba(247,241,230,.94);
+  backdrop-filter:saturate(140%) blur(10px);-webkit-backdrop-filter:saturate(140%) blur(10px);
+  border-bottom:1px solid var(--line)}
+.head-inner{max-width:1080px;margin:0 auto;padding:9px 18px;display:flex;align-items:center;gap:14px}
+.brand{display:flex;align-items:center;gap:9px;min-width:0}
+.brand .mark{width:30px;height:30px;flex:0 0 30px;border-radius:9px;background:var(--navy);color:#f3e6c9;
+  display:grid;place-items:center;font-family:var(--serif);font-size:15px;letter-spacing:0}
+.brand b{display:block;font-size:13.5px;color:var(--navy);white-space:nowrap}
+.brand span{display:block;font-size:10.5px;color:var(--muted);letter-spacing:.5px;text-transform:uppercase}
+.nav{margin-left:auto;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;padding:2px}
+.nav::-webkit-scrollbar{display:none}
+.nav a{white-space:nowrap;font-size:12.5px;padding:6px 11px;border-radius:999px;color:var(--navy-2);
+  border:1px solid transparent;text-decoration:none}
+.nav a.active{background:var(--navy);color:#fff9ee}
+.nav a:hover{text-decoration:none;border-color:var(--line-2)}
+
+/* ---------- hero ---------- */
+.hero{background:
+    radial-gradient(1200px 400px at 85% -20%,rgba(184,147,74,.28),transparent 60%),
+    radial-gradient(800px 340px at 5% 110%,rgba(180,85,47,.30),transparent 60%),
+    linear-gradient(160deg,#16243a 0%,#1b2b45 55%,#243a58 100%);
+  color:#f4ecdd;padding:46px 0 40px;position:relative;overflow:hidden}
+.hero:after{content:"";position:absolute;inset:auto 0 0 0;height:5px;
+  background:linear-gradient(90deg,var(--terra) 0%,var(--gold) 45%,var(--olive) 100%);opacity:.85}
+.hero .kicker{font-family:var(--serif);font-style:italic;font-size:13.5px;letter-spacing:2.4px;
+  text-transform:uppercase;color:#d9c49b;margin-bottom:12px}
+.hero h1{color:#fffaf0;font-size:clamp(26px,5.2vw,42px);letter-spacing:-1px;margin-bottom:10px}
+.hero h1 em{font-family:var(--serif);font-style:italic;font-weight:400;color:#e9cfa2}
+.hero .sub{color:#cfd8e6;font-size:14.5px;max-width:640px}
+.hero .badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+.hero .badge{font-size:12px;padding:6px 12px;border-radius:999px;background:rgba(255,255,255,.10);
+  border:1px solid rgba(255,255,255,.18);color:#f0e7d6}
+.hero .badge b{color:#f6dfb4;font-weight:600}
+.countdown{margin-top:22px;display:inline-flex;align-items:center;gap:10px;background:rgba(255,255,255,.08);
+  border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:10px 16px;font-size:13.5px;color:#f0e7d6}
+.countdown strong{font-size:20px;color:#f7d9a8;font-family:var(--serif);letter-spacing:0}
+.route{margin-top:26px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 4px;font-size:13px}
+.route .stop{display:inline-flex;align-items:center;gap:7px;background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.16);border-radius:11px;padding:7px 12px;color:#f2ebdc}
+.route .stop small{display:block;font-size:10.5px;color:#b9c6d8;letter-spacing:.3px}
+.route .arrow{color:#b8934a;font-size:12px;padding:0 4px}
+
+/* ---------- section ---------- */
+section{padding:44px 0 6px;scroll-margin-top:74px}
+.sec-head{display:flex;align-items:baseline;gap:12px;margin-bottom:6px}
+.sec-num{font-family:var(--serif);font-style:italic;font-size:15px;color:var(--terra);letter-spacing:.5px}
+.sec-head h2{font-size:clamp(20px,3.4vw,26px)}
+.sec-desc{color:var(--muted);font-size:14px;margin-bottom:20px}
+.rule{height:1px;background:linear-gradient(90deg,var(--terra),var(--line) 55%,transparent);margin:0 0 20px;border:0}
+
+/* ---------- cards ---------- */
+.card{background:var(--paper);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px;box-shadow:var(--shadow)}
+.grid{display:grid;gap:14px}
+.grid.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.grid.three{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.stack{display:grid;gap:14px}
+.card h3{font-size:16.5px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
+.card h4{font-size:14px;margin:14px 0 6px;color:var(--navy-2)}
+.muted{color:var(--muted);font-size:13.5px}
+.small{font-size:13px}
+.tag{display:inline-block;font-size:11px;letter-spacing:.3px;padding:2px 9px;border-radius:999px;
+  background:var(--terra-soft);color:#8e4526;border:1px solid #efd2c2}
+.tag.olive{background:#eef0e4;color:#55613f;border-color:#dde2c9}
+.tag.gold{background:#f7ecd6;color:#8a6a25;border-color:#eeddb8}
+.tag.navy{background:#e7ecf3;color:#2b3f5f;border-color:#d3dde9}
+.tag.ok{background:#e6efe7;color:#33613f;border-color:#cfe0d2}
+
+/* ---------- summary table ---------- */
+.kv{width:100%;border-collapse:collapse;font-size:14px}
+.kv th,.kv td{text-align:left;padding:11px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.kv th{width:112px;color:var(--navy-2);font-weight:600;font-size:13px;white-space:nowrap}
+.kv tr:last-child th,.kv tr:last-child td{border-bottom:0}
+.kv td{color:var(--body)}
+
+/* ---------- alerts ---------- */
+.alert{background:#fdf4ee;border:1px solid #f0d3c1;border-left:5px solid var(--terra);
+  border-radius:14px;padding:16px 18px;margin:0 0 14px}
+.alert h3{color:#8e3d20;font-size:15.5px;margin-bottom:10px;display:flex;gap:8px;align-items:center}
+.alert ol{list-style:none;counter-reset:al}
+.alert ol li{position:relative;padding:9px 0 9px 30px;border-top:1px dashed #eed6c6;font-size:14px}
+.alert ol li:first-child{border-top:0}
+.alert ol li:before{counter-increment:al;content:counter(al);position:absolute;left:0;top:10px;
+  width:20px;height:20px;border-radius:50%;background:var(--terra);color:#fff;font-size:11.5px;
+  display:grid;place-items:center;font-weight:700}
+.alert li b{color:#7c3418}
+.note{background:#f3f5ee;border:1px solid #dfe3d3;border-left:5px solid var(--olive);
+  border-radius:12px;padding:12px 15px;font-size:13.5px;color:#4d5540}
+.note b{color:#3d4632}
+.warnline{font-size:13px;color:#8e3d20;background:#fbeae1;border-radius:8px;padding:8px 11px;margin-top:8px}
+
+/* ---------- day accordion ---------- */
+.days{display:grid;gap:12px}
+details.day{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  box-shadow:0 6px 18px rgba(27,43,69,.05)}
+details.day[open]{border-color:#d9c9ad}
+details.day > summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:12px;padding:15px 18px;
+  background:linear-gradient(180deg,#fffdf8,#fcf8f0)}
+details.day > summary::-webkit-details-marker{display:none}
+.dnum{font-family:var(--serif);font-style:italic;color:var(--terra);font-size:13px;flex:0 0 auto;
+  border-right:1px solid var(--line);padding-right:11px;letter-spacing:.4px}
+.dmeta{display:flex;flex-direction:column;min-width:0;gap:2px}
+.dmeta b{color:var(--navy);font-size:15px}
+.dmeta span{color:var(--muted);font-size:12.5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dtags{margin-left:auto;display:flex;gap:5px;flex-wrap:wrap;justify-content:flex-end}
+.chev{flex:0 0 16px;color:var(--line-2);font-size:12px;transition:transform .2s}
+details.day[open] .chev{transform:rotate(180deg);color:var(--terra)}
+.day-body{padding:6px 18px 18px;border-top:1px solid var(--line)}
+
+/* timeline */
+.tl{position:relative;margin-top:12px}
+.tl:before{content:"";position:absolute;left:80px;top:8px;bottom:8px;width:1px;background:var(--line)}
+.tl li{position:relative;display:grid;grid-template-columns:64px 1fr;gap:14px;padding:7px 0}
+.tl .t{font-variant-numeric:tabular-nums;font-size:12.5px;color:var(--terra);font-weight:600;padding-top:1px;
+  text-align:right;letter-spacing:.2px}
+.tl .c{position:relative;padding-left:18px}
+.tl .c:before{content:"";position:absolute;left:-2px;top:7px;width:9px;height:9px;border-radius:50%;
+  background:#fff;border:2px solid var(--line-2)}
+.tl li.key .c:before{background:var(--terra);border-color:var(--terra)}
+.tl b{color:var(--navy);font-size:14px;display:block}
+.tl b .chip{margin-left:6px}
+.tl p{font-size:13px;color:var(--muted);margin-top:2px}
+.tl p strong{color:var(--body);font-weight:600}
+.chip{display:inline-flex;align-items:center;gap:4px;font-size:11px;padding:1px 8px;border-radius:6px;
+  background:#eef1f5;color:#3b4d68;border:1px solid #dde3ec;font-weight:500;white-space:nowrap}
+.chip.air{background:#e9eef7;color:#28456b;border-color:#d3ddec}
+.chip.train{background:#eef0e3;color:#4f5d38;border-color:#dde2c9}
+.chip.hotel{background:#f7ecdd;color:#7d5a24;border-color:#eddcc0}
+.chip.tour{background:#f8e8de;color:#8a4526;border-color:#efd3c4}
+.maps{display:inline-flex;align-items:center;gap:4px;font-size:12px;color:var(--terra);
+  border:1px solid #eccfbe;background:#fdf3ec;border-radius:7px;padding:2px 8px;margin-left:4px;white-space:nowrap}
+.maps:hover{text-decoration:none;background:#f9e7dc}
+
+/* ---------- tickets ---------- */
+.ticket{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:18px;position:relative;
+  box-shadow:var(--shadow)}
+.ticket:before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:4px;border-radius:4px;background:var(--gold)}
+.ticket.air:before{background:#3d5476}
+.ticket.train:before{background:var(--olive)}
+.ticket.tour:before{background:var(--terra)}
+.ticket h3{font-size:15.5px;padding-left:6px}
+.ticket .rows{display:grid;gap:6px;margin-top:10px;padding-left:6px}
+.row{display:grid;grid-template-columns:86px 1fr;gap:10px;font-size:13.5px}
+.row dt{color:var(--muted);font-size:12.5px}
+.row dd{margin:0;color:var(--body);word-break:break-word}
+.row dd b{color:var(--navy)}
+.ticket .foot{margin-top:12px;padding-left:6px}
+
+/* ---------- hotels ---------- */
+.hotel{background:var(--paper);border:1px solid var(--line);border-radius:16px;overflow:hidden;
+  box-shadow:var(--shadow);display:flex;flex-direction:column}
+.hotel .top{padding:16px 18px 12px;background:linear-gradient(180deg,#fbf6ec,#fffdf8);border-bottom:1px solid var(--line)}
+.hotel .city{font-size:11px;letter-spacing:1.2px;text-transform:uppercase;color:var(--terra);margin-bottom:3px}
+.hotel h3{font-size:16px}
+.hotel .en{font-size:12px;color:var(--muted);margin-top:2px}
+.hotel .body{padding:14px 18px 18px;display:grid;gap:7px;flex:1}
+.hotel .body .row{grid-template-columns:64px 1fr}
+.hotel .acts{margin-top:auto;display:flex;gap:8px;flex-wrap:wrap;padding-top:10px}
+.btn{display:inline-flex;align-items:center;gap:5px;font-size:12.5px;padding:7px 12px;border-radius:9px;
+  border:1px solid var(--line-2);background:#fff;color:var(--navy-2);text-decoration:none}
+.btn:hover{text-decoration:none;border-color:var(--terra);color:var(--terra)}
+.btn.call{background:#eef2f7;border-color:#d6dfeb;color:#2d4463}
+.btn.solid{background:var(--navy);color:#fff7ea;border-color:var(--navy)}
+.btn.solid:hover{color:#ffe9c4}
+
+/* ---------- food ---------- */
+.food{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:15px 16px;
+  box-shadow:0 6px 16px rgba(27,43,69,.05);display:flex;flex-direction:column;gap:5px}
+.food h4{margin:0;font-size:14.5px;color:var(--navy)}
+.food .addr{font-size:12.5px;color:var(--muted)}
+.food .tip{font-size:13px;color:var(--body)}
+.food .links{margin-top:auto;padding-top:6px}
+.cityband{display:flex;align-items:center;gap:10px;margin:22px 0 10px}
+.cityband h3{font-size:15px}
+.cityband .line{flex:1;height:1px;background:var(--line)}
+
+/* ---------- checklist ---------- */
+.chk-head{position:sticky;top:56px;z-index:40;background:rgba(255,253,248,.95);backdrop-filter:blur(8px);
+  border:1px solid var(--line);border-radius:14px;padding:12px 15px;margin-bottom:16px;
+  display:flex;align-items:center;gap:14px;flex-wrap:wrap;box-shadow:0 6px 16px rgba(27,43,69,.05)}
+.bar{flex:1;min-width:120px;height:9px;border-radius:999px;background:#ece3d3;overflow:hidden}
+.bar i{display:block;height:100%;width:0;border-radius:999px;
+  background:linear-gradient(90deg,var(--terra),var(--gold));transition:width .3s}
+.chk-head .count{font-size:13px;color:var(--navy);font-variant-numeric:tabular-nums;white-space:nowrap}
+.chk-head .count b{color:var(--terra)}
+.btn.sm{font-size:12px;padding:5px 10px;border-radius:8px;cursor:pointer;background:#fff}
+fieldset.chk-group{border:1px solid var(--line);border-radius:14px;background:var(--paper);margin:0 0 12px;padding:8px 16px 12px}
+fieldset.chk-group legend{font-size:13px;color:var(--navy);padding:0 6px;font-weight:600}
+label.chk{display:flex;align-items:flex-start;gap:11px;padding:9px 2px;border-bottom:1px dashed #ece3d3;
+  font-size:13.8px;cursor:pointer;color:var(--body)}
+label.chk:last-of-type{border-bottom:0}
+label.chk input{appearance:none;-webkit-appearance:none;margin:2px 0 0;width:19px;height:19px;flex:0 0 19px;
+  border:1.5px solid var(--line-2);border-radius:6px;background:#fff;cursor:pointer;position:relative;transition:.15s}
+label.chk input:checked{background:var(--terra);border-color:var(--terra)}
+label.chk input:checked:after{content:"";position:absolute;left:5px;top:2px;width:5px;height:10px;
+  border:solid #fff;border-width:0 2px 2px 0;transform:rotate(42deg)}
+label.chk input:checked + span{color:var(--muted);text-decoration:line-through;text-decoration-color:#cbbfa9}
+label.chk span small{display:block;color:var(--muted);font-size:12px;text-decoration:none}
+
+/* ---------- tips / contacts ---------- */
+.steps{counter-reset:st;display:grid;gap:10px}
+.steps li{position:relative;padding:12px 14px 12px 46px;background:#fbf8f1;border:1px solid var(--line);
+  border-radius:12px;font-size:13.5px}
+.steps li:before{counter-increment:st;content:counter(st);position:absolute;left:14px;top:12px;width:22px;height:22px;
+  border-radius:50%;background:var(--navy);color:#f6e6c8;font-size:12px;display:grid;place-items:center;
+  font-family:var(--serif);font-style:italic}
+.contact{display:flex;align-items:center;gap:10px;padding:11px 0;border-bottom:1px dashed #ece3d3;flex-wrap:wrap}
+.contact:last-child{border-bottom:0}
+.contact .who{flex:1;min-width:150px}
+.contact .who b{display:block;font-size:13.8px;color:var(--navy)}
+.contact .who span{font-size:12px;color:var(--muted)}
+.contact .num{font-size:13px;color:var(--navy-2);font-variant-numeric:tabular-nums}
+.iconline{display:flex;gap:8px;flex-wrap:wrap}
+
+.footer{margin-top:46px;padding:26px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:12.5px}
+.footer .wrap{display:flex;justify-content:space-between;gap:14px;flex-wrap:wrap}
+
+/* floating top */
+#toTop{position:fixed;right:16px;bottom:18px;z-index:70;width:42px;height:42px;border-radius:50%;
+  background:var(--navy);color:#f8e8c8;border:0;display:none;place-items:center;font-size:16px;
+  box-shadow:0 8px 20px rgba(27,43,69,.28);cursor:pointer}
+#toTop.show{display:grid}
+.mask{color:var(--muted);font-size:.95em;background:#f3efe6;border:1px solid var(--line);border-radius:6px;padding:1px 7px}
+.anchor{scroll-margin-top:74px}
+
+@media (max-width:640px){
+  body{font-size:15px}
+  .hero{padding:34px 0 30px}
+  .head-inner{flex-wrap:wrap;gap:8px;padding:8px 14px}
+  .nav{margin-left:0;width:100%;order:3}
+  .brand span{display:none}
+  .chk-head{top:92px}
+  .tl:before{left:68px}
+  .tl li{grid-template-columns:56px 1fr;gap:10px}
+  .kv th{width:92px}
+  .row{grid-template-columns:78px 1fr}
+  section{padding:34px 0 4px}
+}
+@media print{
+  body{background:#fff;font-size:10.5pt}
+  .site-header,#toTop,.chk-head .btn{display:none}
+  details.day{border-color:#ccc;break-inside:avoid}
+  details.day > summary{padding:8px 10px}
+  .card,.ticket,.hotel,.food{box-shadow:none;break-inside:avoid}
+  a{color:#000;text-decoration:none}
+  section{padding:14px 0 0}
+}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="head-inner">
+    <div class="brand">
+      <div class="mark">✈</div>
+      <div>
+        <b>스페인 · 포르투갈 신혼여행</b>
+        <span>2026.11.29 — 12.07</span>
+      </div>
+    </div>
+    <nav class="nav" id="nav">
+      <a href="#summary">요약</a>
+      <a href="#itinerary">일정</a>
+      <a href="#tickets">티켓·바우처</a>
+      <a href="#hotels">호텔</a>
+      <a href="#food">맛집·쇼핑</a>
+      <a href="#checklist">체크리스트</a>
+      <a href="#tips">팁·연락처</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap">
+    <div class="kicker">Honeymoon in Spain &amp; Portugal</div>
+    <h1>임훈 <em>&amp;</em> 오윤경, <em>7박 9일</em>의 여정</h1>
+    <p class="sub">마드리드에서 시작해 바르셀로나, 포르투, 리스본까지 — 가우디와 라리가, 도루강의 노을과 에그타르트. 여행 중 폰으로 바로 꺼내 보는 전체 가이드입니다.</p>
+    <div class="badges">
+      <span class="badge"><b>2026.11.29(일) ~ 12.07(월)</b></span>
+      <span class="badge">7박 9일 · 2인</span>
+      <span class="badge">팜투어 세미패키지</span>
+      <span class="badge">4성급 4곳 · 전부 조식 포함</span>
+    </div>
+    <div class="note" style="margin-top:18px;background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.22);color:#eee6d6">
+      <b>공개용 요약본</b> — 예약번호·개인 연락처는 싣지 않았습니다. 여행 중 예약 확인은 드라이브 <code>Wedding/신혼여행</code>의 마스터노트·바우처를 보세요.
+    </div>
+    <div class="countdown" id="cd">
+      <span id="cd-label">여행까지</span><strong id="cd-day">D-13</strong>
+    </div>
+    <div class="route">
+      <span class="stop">인천<small>11.29 12:10</small></span>
+      <span class="arrow">→</span>
+      <span class="stop">마드리드<small>11.29–30 · 1박</small></span>
+      <span class="arrow">→</span>
+      <span class="stop">바르셀로나<small>11.30–12.02 · 2박</small></span>
+      <span class="arrow">→</span>
+      <span class="stop">포르투<small>12.02–04 · 2박</small></span>
+      <span class="arrow">→</span>
+      <span class="stop">리스본<small>12.04–06 · 2박</small></span>
+      <span class="arrow">→</span>
+      <span class="stop">인천<small>12.07 19:20</small></span>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+
+<!-- ===================== 1. SUMMARY ===================== -->
+<section id="summary" class="anchor">
+  <div class="sec-head"><span class="sec-num">01</span><h2>한눈에 보는 요약 &amp; 핵심 주의사항</h2></div>
+  <p class="sec-desc">출발 전과 여행 중에 가장 먼저 확인할 것들. 아래 5가지는 잊으면 실제로 손해가 나는 항목입니다.</p>
+
+  <div class="card" style="margin-bottom:16px">
+    <table class="kv">
+      <tr><th>여행 기간</th><td><b>2026-11-29(일) ~ 12-07(월)</b> · 7박 9일 · 신랑 임훈 · 신부 오윤경</td></tr>
+      <tr><th>도시 순서</th><td>마드리드 1박 → 바르셀로나 2박 → 포르투 2박 → 리스본 2박 (IN 마드리드 / OUT 리스본)</td></tr>
+      <tr><th>국제선</th><td><b>KE913</b> 11/29 12:10 인천 T2 → 19:25 마드리드 T1 (15시간 15분)<br>
+        <b>KE922</b> 12/06 21:05 리스본 T1 → <b>12/07 19:20 인천 T2</b> (13시간 15분) <span class="tag gold">도착 19:20 정정</span></td></tr>
+      <tr><th>도시 간 이동</th><td><b>AVE 03161</b> 11/30 15:57 아토차 → 18:59 산츠 (5호차 14D·14C)<br>
+        <b>FR 4585</b> 12/02 19:20 바르셀로나 → 20:20 포르투 · <b>AP 120</b> 12/04 09:40 캄파냐 → 12:22 오리엔트 (3호차 51·53)</td></tr>
+      <tr><th>숙소</th><td>리아베니(마드리드) · 악타 시티47(바르셀로나) · 머큐어 센트루 산타 카타리나(포르투) · 문디알(리스본) — 전부 조식 포함</td></tr>
+      <tr><th>특별 일정</th><td>11/30 21:00 <b>라리가 직관</b> (에스파뇰 vs 헤타페, 137구역 14열 5·7번)<br>
+        12/01 <b>사그라다 파밀리아</b> 13:30 영어 가이드 + 15:00 탄생의 파사드 타워</td></tr>
+      <tr><th>예약번호</th><td><span class="mask">비공개</span> — 예약번호는 드라이브 마스터노트·바우처에서 확인</td></tr>
+      <tr><th>확정서 원본</th><td><a href="https://europe1.co.kr/schedule/WHW/261129-17" target="_blank" rel="noopener">europe1.co.kr/schedule/WHW/261129-17</a> · 바우처 PDF는 드라이브 <code>Wedding/신혼여행/01_확정서_바우처_티켓</code></td></tr>
+    </table>
+  </div>
+
+  <div class="alert">
+    <h3><span>⚠</span> 이것만은 꼭 — 핵심 주의사항 5</h3>
+    <ol>
+      <li><b>12/2 VIP 단독 투어는 반드시 '오전 배정'.</b> 투어는 오전/오후 랜덤 배정인데 라이언에어가 <b>19:20 출발</b>입니다. 11/30 바르셀로나 도착 직후 현지 담당자에게 <b>“12/2 오전 배정 + 16:30까지 공항 이동”</b>을 명확히 요청하세요. 오후 배정이면 비행기를 놓칩니다.</li>
+      <li><b>라이언에어는 앱 체크인 필수.</b> 종이·PDF 탑승권이 폐지되어 <code>Ryanair</code> 앱에서 예약번호·예약 이메일(드라이브 참고)로 예약을 불러온 뒤 QR 탑승권을 저장해야 합니다(출발 2~3일 전 오픈). 앱 미설치·불러오기 실패 시 탑승 제한.</li>
+      <li><b>3.5mm 유선 이어폰 2개.</b> 포르투 워킹투어는 수신기를 쓰므로 블루투스·C타입 이어폰은 사용 불가입니다. 없으면 가이드에게 1€에 구매, 수신기 파손 시 10만 원 배상.</li>
+      <li><b>바우처는 전부 실물 출력.</b> 호텔 4 + 열차 2 + 픽업 1 + 이용안내. 특히 리스본 픽업은 기사가 <b>한국 번호로 연락</b>하므로 <b>기사 미팅 전까지 유심 교체 금지</b>.</li>
+      <li><b>휴대품 손해 담보 없음.</b> 여행자보험은 질병·상해만 보장하고 도난·분실은 보상되지 않습니다. 귀중품은 최소로, 도난 시 <b>경찰서 Police Report</b> 필수(청구 요건). 현금은 보상 불가.</li>
+    </ol>
+  </div>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>🕘 출발·도착 시각 요약</h3>
+      <table class="kv">
+        <tr><th>11/29</th><td>09:10 인천 T2 → 12:10 KE913 → 19:25 마드리드</td></tr>
+        <tr><th>11/30</th><td>15:57 AVE → 18:59 바르셀로나 / 21:00 라리가</td></tr>
+        <tr><th>12/01</th><td>09:30 까사바트요 미팅 / 13:30 사그라다 가이드 / 15:00 타워</td></tr>
+        <tr><th>12/02</th><td>오전 VIP 투어 / 16:20~16:50 BCN / 19:20 FR4585</td></tr>
+        <tr><th>12/03</th><td>09:00 포르투 워킹투어 (3시간)</td></tr>
+        <tr><th>12/04</th><td>09:40 AP120 → 12:22 리스본 오리엔트</td></tr>
+        <tr><th>12/06</th><td>16:50 기사 미팅 / 17:00 공항 / 21:05 KE922</td></tr>
+        <tr><th>12/07</th><td>19:20 인천 도착 → 20:00~20:30 귀가</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>💰 현금·카드 준비</h3>
+      <p class="small">시티택스 1인 1박 €5~10 → 4박 2인 <b>€40~80</b><br>
+        구엘공원 입장료 <b>€18 × 2</b> · 투어 중 교통비 <b>€15 × 2</b><br>
+        VIP 투어 스냅 선택 시 <b>1인 €30 현금</b>(라로카는 추가 지불 없음)</p>
+      <p class="small" style="margin-top:8px">→ <b>2인 €400~500</b> 여유 있게. 호텔 데포짓 €100~150은 <b>본인 명의 신용카드</b>로(트래블월렛류는 취소 처리 불가).</p>
+      <div class="warnline">유로 현금은 소액권 위주로. 팁·화장실·시티택스는 현금만 받는 곳이 있습니다.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 2. ITINERARY ===================== -->
+<section id="itinerary" class="anchor">
+  <div class="sec-head"><span class="sec-num">02</span><h2>일자별 상세 타임라인</h2></div>
+  <p class="sec-desc">Day 1 ~ Day 9. 각 날짜를 눌러 펼치면 이동편·미팅 장소·체크인이 시간순으로 나옵니다. 지도 링크는 현지에서 바로 열 수 있습니다.
+    <button class="btn sm" id="toggleAll" style="margin-left:6px">전체 펼치기</button></p>
+
+  <div class="days" id="days">
+
+    <!-- DAY 1 -->
+    <details class="day" open>
+      <summary>
+        <span class="dnum">Day 1</span>
+        <span class="dmeta"><b>11월 29일 (일)</b><span>인천 → 마드리드 · 첫날</span></span>
+        <span class="dtags"><span class="chip air">KE913</span><span class="chip hotel">리아베니</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li class="key"><span class="t">09:10</span><div class="c"><b>인천공항 제2여객터미널 도착</b><p>출발 3시간 전 원칙. 수속·수하물 위탁 후 eSIM/포켓와이파이 수령, 환전 확인.</p></div></li>
+          <li class="key"><span class="t">12:10</span><div class="c"><b>대한항공 KE913 인천 출발 <span class="chip air">15시간 15분</span></b><p>기종 보잉 787-9. 위탁 23kg 1개 / 기내 10kg 1개.</p></div></li>
+          <li class="key"><span class="t">19:25</span><div class="c"><b>마드리드 바라하스 공항 T1 도착</b><p>입국 심사 → 수하물 수령.</p></div></li>
+          <li class="key"><span class="t">20:30</span><div class="c"><b>픽업가이드(한국인) 미팅 후 호텔 이동 <span class="chip tour">확정서 1일차</span></b><p>가이드를 못 찾으면 확정서 현지 비상연락망으로. 유심은 미팅 전까지 교체하지 마세요.</p></div></li>
+          <li><span class="t">21:00</span><div class="c"><b>호텔 개별 체크인</b><p>바우처 + 여권 + 신용카드(데포짓) 제시. 늦은 도착이므로 프론트에 도착 예정 시간을 미리 알려두면 안전합니다.</p></div></li>
+          <li><span class="t">22:00</span><div class="c"><b>가벼운 야식 — 산 미구엘 시장</b><p>호텔에서 도보권. 타파스와 하몽, 한 잔. 첫날은 무리하지 않기.</p></div></li>
+          <li><span class="t">숙소</span><div class="c"><b>호텔 리아베니 Hotel Liabeny</b><p>Calle de la Salud 3, 28013 Madrid · 조식 포함 · DOUBLE STANDARD
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Liabeny%20Calle%20de%20la%20Salud%203%20Madrid" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- DAY 2 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 2</span>
+        <span class="dmeta"><b>11월 30일 (월)</b><span>마드리드 → 바르셀로나 &amp; ⚽ 라리가 직관</span></span>
+        <span class="dtags"><span class="chip train">AVE 03161</span><span class="chip">⚽ 21:00</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li><span class="t">08:00</span><div class="c"><b>호텔 조식</b><p>체크아웃 전 짐 정리. 열차표·여권은 몸에 지니기.</p></div></li>
+          <li><span class="t">09:00</span><div class="c"><b>마드리드 도심 자유 산책</b><p>솔 광장 → 마요르 광장 → 프라도 미술관 외관. 왕복 2km 내외로 가볍게.</p></div></li>
+          <li class="key"><span class="t">15:25</span><div class="c"><b>마드리드 아토차(Atocha)역 도착 <span class="chip train">출발 30분 전</span></b><p><b>출발 2분 전 게이트 폐쇄</b>. 전광판에서 편명·플랫폼 확인.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Madrid%20Atocha%20station" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li class="key"><span class="t">15:57</span><div class="c"><b>AVE 03161 출발 → 18:59 바르셀로나 산츠</b><p>5호차 14D(임훈) · 14C(오윤경). 예약번호는 드라이브 바우처 참고. 각 €36.75, 변경·환불 불가.</p></div></li>
+          <li><span class="t">19:10</span><div class="c"><b>바르셀로나 산츠역 → 호텔 체크인</b><p>산츠역에서 악타 시티47까지 지하철 L5 등 이용(짐 2개). 체크인 후 바로 경기장으로.</p></div></li>
+          <li><span class="t">20:00</span><div class="c"><b>RCDE 스타디움으로 이동</b><p>지하철 L8 또는 R2 열차. 역 주변에서 간단히 저녁을 먹고 이동하면 시간이 맞습니다.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=RCDE%20Stadium%20Cornella" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li class="key"><span class="t">21:00</span><div class="c"><b>RCD 에스파뇰 vs 헤타페 CF · 라리가 직관</b><p>137구역 14열 5번·7번 (2석, 총 €155). 입장 시 신분증 지참 권장.</p></div></li>
+          <li><span class="t">23:30</span><div class="c"><b>경기 종료 → 호텔 복귀</b><p>다음 날 09:30 미팅이 있으니 늦지 않게.</p></div></li>
+          <li><span class="t">숙소</span><div class="c"><b>악타 시티47 Acta City47</b><p>Nicaragua 47, 08029 Barcelona · 조식 포함 · DOUBLE SUPERIOR
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Acta%20City47%20Nicaragua%2047%20Barcelona" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+        </ul>
+        <div class="note"><b>동선 팁</b> — 18:59 도착 후 21:00 경기라 저녁 시간이 빠듯합니다. 산츠역 근처에서 샌드위치·타파스로 간단히 먹고 L8로 이동하는 편이 안전합니다(경기장 주변 식당은 경기 전 만원).</div>
+      </div>
+    </details>
+
+    <!-- DAY 3 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 3</span>
+        <span class="dmeta"><b>12월 01일 (화)</b><span>가우디 반일 투어 &amp; 사그라다 파밀리아 내부·타워</span></span>
+        <span class="dtags"><span class="chip tour">09:30 미팅</span><span class="chip">13:30 사그라다</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li><span class="t">08:00</span><div class="c"><b>호텔 조식</b><p>편한 신발 필수 — 오전 3시간 30분 도보입니다.</p></div></li>
+          <li class="key"><span class="t">09:00</span><div class="c"><b>까사바트요(Casa Batlló) 앞으로 이동</b><p>미팅 09:30, 시간 엄수. 가이드가 늦으면 대기 없이 출발합니다.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Casa%20Batllo%20Passeig%20de%20Gracia%2043%20Barcelona" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li class="key"><span class="t">09:30</span><div class="c"><b>가우디 반일 워킹투어 (한국인 가이드, 약 3시간 30분)</b><p>까사 바트요 → 까사 밀라 → 구엘 공원(입장) → 사그라다 파밀리아 외관 설명 → 개별 중식.</p>
+            <p><strong>현지 지불</strong>: 구엘공원 입장료 약 €18/인 · 교통비 약 €15/인 → 현금 준비.</p></div></li>
+          <li class="key"><span class="t">13:00</span><div class="c"><b>사그라다 파밀리아 입장 <span class="chip tour">예약 완료</span></b><p>티켓상 입장 시간은 <b>가이드 투어 30분 전</b> = 13:00. 입구는 <b>Carrer de la Marina</b> 쪽.
+            예약번호·Ticket Locator는 드라이브 바우처 참고 · General 2인 €80(1인 €40)</p></div></li>
+          <li class="key"><span class="t">13:30</span><div class="c"><b>영어 가이드 투어 (60분 내외)</b><p>실물 신분증(여권) 필수 — <b>양도 불가</b> 티켓입니다. 공식 앱 <code>Sagrada Família Oficial</code> 설치 후 예약번호로 오디오가이드 수령.</p></div></li>
+          <li class="key"><span class="t">15:00</span><div class="c"><b>탄생의 파사드 타워 전망대 (TOWER on the Nativity facade)</b><p>가이드 투어 종료 후 15:00 타워 입장. 엘리베이터로 올라가 계단으로 내려오는 구조라 가벼운 복장 권장. 가방 크기 제한 있음.</p></div></li>
+          <li><span class="t">16:00</span><div class="c"><b>오후 일정 — 두 가지 중 선택</b><p><strong>기본안</strong>: 고딕 지구·보케리아 시장·람블라스·보른 지구 산책, 그라시아 거리 쇼핑 → 저녁 비니투스.<br>
+            <strong>대체안</strong>: 16:00 Estació del Nord에서 라로카 빌리지 셔틀(16:45 도착) → 19:45까지 쇼핑 → 20:00 복귀 셔틀 → 20:45 시내.</p></div></li>
+          <li><span class="t">숙소</span><div class="c"><b>악타 시티47</b><p>동일 · 조식 포함</p></div></li>
+        </ul>
+        <div class="note"><b>사그라다 티켓 주의</b> — 티켓은 이름이 인쇄된 <b>비양도 티켓</b>이라 입장 시 공식 신분증을 보여줘야 합니다. 예약번호와 QR은 폰 사진으로도 되지만, 여권 실물은 반드시 챙기세요.</div>
+      </div>
+    </details>
+
+    <!-- DAY 4 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 4</span>
+        <span class="dmeta"><b>12월 02일 (수)</b><span>VIP 단독 스냅투어 → 포르투 이동</span></span>
+        <span class="dtags"><span class="chip tour">오전 배정 요청</span><span class="chip air">FR 4585</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <div class="alert" style="margin:12px 0 4px">
+          <h3><span>⚠</span> 오늘의 최대 리스크</h3>
+          <ol><li><b>VIP 투어는 오전/오후 랜덤 배정</b>입니다. 11/30 도착 직후 현지 담당자에게 <b>“12/2 오전 배정 + 16:30까지 공항 이동”</b>을 요청하세요. 오후 배정이면 19:20 비행기를 놓칩니다. 라로카 빌리지 선택 시 차량으로 BCN 공항까지 직행할 수 있어 가장 안전합니다.</li></ol>
+        </div>
+        <ul class="tl">
+          <li><span class="t">08:00</span><div class="c"><b>호텔 조식 + 체크아웃 준비</b><p>캐리어는 투어 차량에 실을 수 있게 미리 정리(라로카 선택 시).</p></div></li>
+          <li class="key"><span class="t">오전</span><div class="c"><b>VIP 허니문 단독 투어 (전용차량 + 가이드 + 스냅)</b><p>방문지는 현지 상의로 확정. 선택지 6개:</p>
+            <p>① 시체스+스냅 ② 몬세라트+스냅 ③ 지로나+스냅 ④ <b>라로카 빌리지 쇼핑</b> ⑤ 타라고나+스냅 ⑥ CAVA 와이너리<br>
+            ①·②·③·⑤·⑥은 <b>1인 €30 현금</b> / ④ 라로카는 <b>추가 지불 없음</b> · ⑥은 사전 티켓팅으로 변경 불가.</p></div></li>
+          <li><span class="t">16:20</span><div class="c"><b>바르셀로나 엘프라트 공항(BCN) 도착</b><p>출발 2시간 30분~3시간 전. 16:20~16:50 사이 도착 목표.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Barcelona%20El%20Prat%20Airport%20Terminal%202" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li class="key"><span class="t">19:20</span><div class="c"><b>라이언에어 FR 4585 바르셀로나 → 20:20 포르투</b><p>예약번호는 드라이브 참고 · 위탁 20kg + 기내 소형가방(40×30×20cm). <b>앱 QR 탑승권</b>으로 탑승. 포르투는 스페인보다 1시간 느림.</p></div></li>
+          <li><span class="t">21:10</span><div class="c"><b>포르투 공항 → 호텔 체크인</b><p>지하철 E선 + 도보 또는 택시 20~25분.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Mercure%20Porto%20Centro%20Santa%20Catarina" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li><span class="t">숙소</span><div class="c"><b>머큐어 포르투 센트루 산타 카타리나</b><p>Praça da Batalha 116, 4049-028 Porto · 조식 포함 · Classic Double</p></div></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- DAY 5 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 5</span>
+        <span class="dmeta"><b>12월 03일 (목)</b><span>포르투 워킹투어 &amp; 도루강 와이너리</span></span>
+        <span class="dtags"><span class="chip tour">09:00 미팅</span><span class="chip">🎧 3.5mm</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li><span class="t">08:00</span><div class="c"><b>호텔 조식</b><p>오늘은 3시간 이상 돌길을 걷습니다 — 편한 신발, 3.5mm 유선 이어폰.</p></div></li>
+          <li class="key"><span class="t">08:50</span><div class="c"><b>Praça da Trindade 도착</b><p><b>이그레자 다 산티시마 트린다데 성당 앞 광장</b>. 청동지붕 시청사 <b>뒤쪽</b>이 미팅 장소입니다(시청 건물 앞이 아님).
+            <a class="maps" href="https://maps.app.goo.gl/JHXfuMqUZEgWTShg6" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li class="key"><span class="t">09:00</span><div class="c"><b>포르투 가이드 워킹투어 (최대 12인, 약 3시간)</b><p>렐루 서점 → 좁은 집 → 맥도날드 → 상벤투 기차역(아줄레주) → Santa Catarina → Flores → 전망대.</p>
+            <p><strong>수신기 사용</strong>: 3.5mm 유선 이어폰 필수(블루투스·C타입 불가). 없으면 가이드에게 1€ 구매, 파손 시 10만 원 배상. 녹음·촬영 금지, 지각 시 대기 없음·환불 불가.</p></div></li>
+          <li><span class="t">12:00</span><div class="c"><b>점심 — 카스트로(에그타르트) &amp; 상벤투역 주변</b><p>투어 종료 지점에서 가까운 아틀리에 카스트로에서 나타 한 개.</p></div></li>
+          <li><span class="t">14:00</span><div class="c"><b>도루강변 자유 여행</b><p>리베이라 지구 산책 → 동 루이스 1세 다리 위층 보행로.</p></div></li>
+          <li><span class="t">16:00</span><div class="c"><b>빌라 노바 드 가이아 와이너리 투어</b><p>포트와인 시음. 예약 없이 들를 수 있는 곳은 오후 일찍 가는 편이 좋습니다.</p></div></li>
+          <li><span class="t">18:30</span><div class="c"><b>다리 위 석양 &amp; 야경</b><p>일몰 30분 전에 다리 위로. 저녁은 긴다이스 계단의 정어리구이.</p></div></li>
+          <li><span class="t">숙소</span><div class="c"><b>머큐어 포르투 센트루 산타 카타리나</b><p>동일</p></div></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- DAY 6 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 6</span>
+        <span class="dmeta"><b>12월 04일 (금)</b><span>포르투 → 리스본 · AP 120</span></span>
+        <span class="dtags"><span class="chip train">AP 120</span><span class="chip hotel">문디알</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li><span class="t">07:40</span><div class="c"><b>조식 &amp; 체크아웃</b><p>시티택스는 체크아웃 시 현금 정산 가능.</p></div></li>
+          <li class="key"><span class="t">09:10</span><div class="c"><b>포르투 캄파냐(Porto Campanhã)역 도착</b><p>출발 30분 전. 전광판에서 편명·플랫폼 재확인, 티켓의 <b>3호차</b> 표시 확인.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Porto%20Campanha%20station" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li class="key"><span class="t">09:40</span><div class="c"><b>AP 120 (Alfa Pendular) → 12:22 리스본 오리엔트</b><p>3호차 51(임훈) · 53(오윤경). 각 €35.70, 2등석. 확정서에는 IC 120으로 적혀 있으나 실제 티켓은 Alfa Pendular 120 — 편명·시각으로 확인.</p></div></li>
+          <li><span class="t">13:00</span><div class="c"><b>호텔 문디알 체크인 또는 짐 보관</b><p>오리엔트역에서 지하철 적색선 직결, Rossio/마르팅 모니즈 광장 인근.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Mundial%20Praca%20Martim%20Moniz%202%20Lisboa" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li><span class="t">14:30</span><div class="c"><b>리스본 중심가 산책</b><p>아우구스타 거리 → 코메르시우 광장 → 산타 주스타 엘리베이터 → 상 조르제 성 선셋.</p></div></li>
+          <li><span class="t">숙소</span><div class="c"><b>호텔 문디알 Hotel Mundial</b><p>Praça Martim Moniz 2, 1100-341 Lisboa · 조식 포함 · DOUBLE CLASSIC</p></div></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- DAY 7 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 7</span>
+        <span class="dmeta"><b>12월 05일 (토)</b><span>벨렘 지구 &amp; 신트라·카스카이스</span></span>
+        <span class="dtags"><span class="chip">자유일</span><span class="chip">🍮 벨렘</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li><span class="t">09:00</span><div class="c"><b>벨렘 지구로 이동 (트램 15E 또는 택시)</b><p>제로니무스 수도원 → 벨렘탑 → 발견기념비. 수도원은 오전 일찍이 덜 붐빕니다.</p></div></li>
+          <li class="key"><span class="t">11:00</span><div class="c"><b>파스테이스 드 벨렘 — 에그타르트 1위</b><p>R. de Belém 84-92. 수도원 바로 옆, 갓 구운 나타에 시나몬. 웨이팅은 포장 줄이 짧습니다.
+            <a class="maps" href="https://maps.app.goo.gl/yku668g5jpWEj7gw8?g_st=ic" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li><span class="t">13:00</span><div class="c"><b>선택 — 신트라 &amp; 로카곶 당일치기</b><p>Rossio역에서 신트라선(약 40분) → 페나성 → 403번 버스로 로카곶(유럽 대륙 서쪽 끝). 왕복 6~7시간 소요, 체력 고려해 결정.</p></div></li>
+          <li><span class="t">19:00</span><div class="c"><b>저녁 — 파두 공연 또는 타임아웃 마켓</b><p>알파마의 작은 파두 하우스(예약 권장) 또는 Cais do Sodré 타임아웃 마켓에서 여러 가게 골라 먹기.</p></div></li>
+          <li><span class="t">숙소</span><div class="c"><b>호텔 문디알</b><p>동일</p></div></li>
+        </ul>
+        <div class="note"><b>내일 준비</b> — 오늘 밤에 ① 바우처(픽업) 실물을 꺼내 두고 ② 택스리펀 서류를 한 봉투에 모으고 ③ 짐을 미리 싸두세요. 내일 16:50 기사 미팅입니다.</div>
+      </div>
+    </details>
+
+    <!-- DAY 8 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 8</span>
+        <span class="dmeta"><b>12월 06일 (일)</b><span>리스본 마지막 날 → 인천행 KE922</span></span>
+        <span class="dtags"><span class="chip tour">17:00 픽업</span><span class="chip air">KE922 21:05</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li><span class="t">08:30</span><div class="c"><b>조식 &amp; 체크아웃 (짐 보관)</b><p>프론트에 짐 보관 요청. 귀중품은 룸 세이프 대신 몸에.</p></div></li>
+          <li><span class="t">10:00</span><div class="c"><b>알파마 지구 &amp; 28번 노란 트램</b><p>Miradouro 전망대에서 마지막 커피. 트램은 소매치기 주의 구간.</p></div></li>
+          <li><span class="t">15:30</span><div class="c"><b>호텔 복귀 · 짐 찾기 · 옷 갈아입기</b><p>기내 13시간이므로 편한 복장, 압박스타킹.</p></div></li>
+          <li class="key"><span class="t">16:50</span><div class="c"><b>호텔 로비에서 현지인 기사 미팅</b><p>Suntransfers 예약(Priority 번호는 바우처 참고) · PREMIUM TRANSFER 2명/중형 캐리어 3개. 기사 대기 최대 15분.
+            <b>5분 내 못 찾으면 바우처의 Priority 번호로 즉시 전화</b>. 바우처 실물 지참, <b>유심 교체 금지</b>.</p></div></li>
+          <li class="key"><span class="t">17:00</span><div class="c"><b>전용 차량으로 리스본 공항 T1 이동 (약 25분)</b><p>차량 못 잡으면 개별 택시 + 영수증 보관 후 한국 비상연락망.</p></div></li>
+          <li class="key"><span class="t">17:30</span><div class="c"><b>공항 도착 — 택스리펀 세관 도장 &amp; 면세 수속</b><p>위탁 수하물 부치기 <b>전에</b> 세관 데스크에서 도장·DIVA 스캔. 물품 소지 필요.
+            <a class="maps" href="https://www.google.com/maps/search/?api=1&amp;query=Lisbon%20Airport%20Terminal%201" target="_blank" rel="noopener">📍 지도</a></p></div></li>
+          <li class="key"><span class="t">21:05</span><div class="c"><b>대한항공 KE922 리스본 출발</b><p>기내 1박. 인천 도착 12/7 19:20.</p></div></li>
+        </ul>
+      </div>
+    </details>
+
+    <!-- DAY 9 -->
+    <details class="day">
+      <summary>
+        <span class="dnum">Day 9</span>
+        <span class="dmeta"><b>12월 07일 (월)</b><span>인천 도착 · 귀가</span></span>
+        <span class="dtags"><span class="chip air">19:20 도착</span></span>
+        <span class="chev">▾</span>
+      </summary>
+      <div class="day-body">
+        <ul class="tl">
+          <li class="key"><span class="t">19:20</span><div class="c"><b>인천국제공항 T2 도착</b><p>수하물 수령 후 <b>20:00~20:30 귀가</b> 예상. (기존 20:00 도착 표기는 수·금요일 편 기준이었고, 12/6은 일요일이라 19:20이 정본.)</p></div></li>
+          <li><span class="t">20:50</span><div class="c"><b>귀가 — 택시/공항버스</b><p>택시 대기 길면 공항버스 또는 리무진 예약. 짐이 많으니 택시 권장.</p></div></li>
+          <li><span class="t">메모</span><div class="c"><b>택스리펀 환급 확인</b><p>환급은 카드 청구서에 1~2개월 뒤 반영됩니다. 영수증 사진을 남겨두세요.</p></div></li>
+        </ul>
+      </div>
+    </details>
+
+  </div>
+</section>
+
+<!-- ===================== 3. TICKETS ===================== -->
+<section id="tickets" class="anchor">
+  <div class="sec-head"><span class="sec-num">03</span><h2>항공 · 열차 · 티켓 &amp; 바우처</h2></div>
+  <p class="sec-desc">모든 예약의 확정 내용. 예약번호·좌석은 바우처 PDF와 대조해 확인하세요.</p>
+
+  <div class="grid two">
+    <div class="ticket air">
+      <h3>✈️ 대한항공 왕복 · KE913 / KE922</h3>
+      <dl class="rows">
+        <div class="row"><dt>예약번호</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>출국</dt><dd><b>KE913</b> 11/29(일) 12:10 인천 T2 → 19:25 마드리드 T1</dd></div>
+        <div class="row"><dt>귀국</dt><dd><b>KE922</b> 12/06(일) 21:05 리스본 T1 → <b>12/07(월) 19:20 인천 T2</b></dd></div>
+        <div class="row"><dt>기종</dt><dd>보잉 787-9 · 위탁 23kg 1개 / 기내 10kg 1개</dd></div>
+        <div class="row"><dt>비고</dt><dd>e-티켓은 귀국 수속 시 요구될 수 있어 마지막까지 소지</dd></div>
+      </dl>
+      <div class="foot"><span class="tag gold">인천 도착 19:20 정정</span> <span class="tag ok">발권 완료</span></div>
+    </div>
+
+    <div class="ticket air">
+      <h3>🟡 라이언에어 FR 4585 · 바르셀로나 → 포르투</h3>
+      <dl class="rows">
+        <div class="row"><dt>일시</dt><dd>12/02(수) <b>19:20</b> BCN(엘프라트) → <b>20:20</b> OPO</dd></div>
+        <div class="row"><dt>예약번호</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>예약 이메일</dt><dd><span class="mask">비공개</span> (팜투어 대행 예약)</dd></div>
+        <div class="row"><dt>수하물</dt><dd>기내 수하물 미포함 · 팜투어 포함분은 위탁 20kg + 기내 소형가방(40×30×20cm)</dd></div>
+        <div class="row"><dt>탑승권</dt><dd>종이·PDF 발급 중단 → <b>Ryanair 앱 체크인 필수</b></dd></div>
+      </dl>
+      <div class="foot"><span class="tag">출발 2~3일 전 체크인 오픈</span></div>
+    </div>
+
+    <div class="ticket train">
+      <h3>🚄 AVE 03161 · 마드리드 → 바르셀로나</h3>
+      <dl class="rows">
+        <div class="row"><dt>일시</dt><dd>11/30(월) <b>15:57</b> Madrid Atocha → <b>18:59</b> Barcelona Sants</dd></div>
+        <div class="row"><dt>예약번호</dt><dd><span class="mask">비공개</span> (2인 공통) · BÁSICO 36.75€ × 2</dd></div>
+        <div class="row"><dt>좌석</dt><dd><b>5호차 (Coche 5)</b> · 임훈 <b>14D</b> / 오윤경 <b>14C</b></dd></div>
+        <div class="row"><dt>승차권</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>주의</dt><dd><b>출발 2분 전 게이트 폐쇄</b> · 30분 전 역 도착 · 바코드·인쇄영역 훼손 금지(자르지 말 것)</dd></div>
+      </dl>
+      <div class="foot"><span class="tag ok">확정</span> <span class="tag navy">여권 지참</span></div>
+    </div>
+
+    <div class="ticket train">
+      <h3>🚄 AP 120 · 포르투 → 리스본</h3>
+      <dl class="rows">
+        <div class="row"><dt>일시</dt><dd>12/04(금) <b>09:40</b> Porto Campanhã → <b>12:22</b> Lisboa Oriente</dd></div>
+        <div class="row"><dt>열차</dt><dd><b>Alfa Pendular 120</b> (확정서 표기는 IC 120) · 2등석 35.70€ × 2</dd></div>
+        <div class="row"><dt>좌석</dt><dd><b>3호차 (Carruagem 3)</b> · 임훈 <b>51</b> / 오윤경 <b>53</b></dd></div>
+        <div class="row"><dt>승차권</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>주의</dt><dd>30분 전 역 도착 · 전광판에서 편명·플랫폼 재확인 · 티켓 분실 시 재발행 불가</dd></div>
+      </dl>
+      <div class="foot"><span class="tag ok">확정</span></div>
+    </div>
+
+    <div class="ticket">
+      <h3>⚽ RCD 에스파뇰 vs 헤타페 CF</h3>
+      <dl class="rows">
+        <div class="row"><dt>일시</dt><dd>11/30(월) <b>21:00</b> · RCDE 스타디움</dd></div>
+        <div class="row"><dt>좌석</dt><dd><b>137구역 14열 5번 · 7번</b> (2석)</dd></div>
+        <div class="row"><dt>금액</dt><dd>총 <b>€155</b></dd></div>
+        <div class="row"><dt>티켓</dt><dd>PDF 2종 드라이브 보관 (<code>01_확정서_바우처_티켓</code>)</dd></div>
+        <div class="row"><dt>이동</dt><dd>산츠역/호텔 → 지하철 L8 또는 R2 열차</dd></div>
+      </dl>
+      <div class="foot"><span class="tag ok">예매 완료</span></div>
+    </div>
+
+    <div class="ticket tour">
+      <h3>⛪ 사그라다 파밀리아 — 가이드 + 타워</h3>
+      <dl class="rows">
+        <div class="row"><dt>예약번호</dt><dd><span class="mask">비공개</span> — 드라이브 바우처 참고</dd></div>
+        <div class="row"><dt>날짜</dt><dd><b>12/01(화)</b></dd></div>
+        <div class="row"><dt>입장</dt><dd><b>13:00</b> (가이드 30분 전) · 입구 <b>Carrer de la Marina</b></dd></div>
+        <div class="row"><dt>가이드</dt><dd><b>13:30 영어 가이드 투어</b></dd></div>
+        <div class="row"><dt>타워</dt><dd><b>15:00 탄생의 파사드 타워</b> (TOWER on the Nativity facade)</dd></div>
+        <div class="row"><dt>금액</dt><dd>General 1인 €40 · 2인 <b>€80</b> (결제 완료)</dd></div>
+        <div class="row"><dt>준비</dt><dd>공식 앱 <code>Sagrada Família Oficial</code> + <b>여권 실물</b> · 비양도 티켓</dd></div>
+      </dl>
+      <div class="foot"><span class="tag ok">예매 완료</span> <span class="tag">티켓 PDF 드라이브 보관</span></div>
+    </div>
+
+    <div class="ticket tour">
+      <h3>🚐 리스본 호텔 → 공항 픽업 (Suntransfers)</h3>
+      <dl class="rows">
+        <div class="row"><dt>예약번호</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>픽업</dt><dd><b>12/06(일) 17:00</b> 호텔 문디알 로비 (16:50 기사 미팅)</dd></div>
+        <div class="row"><dt>차량</dt><dd>PREMIUM TRANSFER · 2명 · 중형 캐리어 3개</dd></div>
+        <div class="row"><dt>연락</dt><dd>기사 못 찾음 시 <b>바우처의 Priority 번호로 즉시 연락</b> (번호는 드라이브 바우처 참고)</dd></div>
+        <div class="row"><dt>주의</dt><dd>기사 대기 최대 15분 · <b>기사 미팅 전 유심 교체 금지</b> · 바우처 실물 출력</dd></div>
+      </dl>
+      <div class="foot"><span class="tag ok">확정</span></div>
+    </div>
+
+    <div class="ticket">
+      <h3>🏨 호텔 바우처 · 확정서 · 보험</h3>
+      <dl class="rows">
+        <div class="row"><dt>호텔</dt><dd>리아베니 · 악타 시티47 · 머큐어 포르투 · 문디알 — 전부 조식(B&amp;B) 포함</dd></div>
+        <div class="row"><dt>확정서</dt><dd>팜투어 세미패키지 확정서 (2026-11-16 발행, 13페이지)</dd></div>
+        <div class="row"><dt>보험</dt><dd>메리츠화재 · 팜투어 베이직 · 11/29 00:00 ~ 12/07 23:00(KST)</dd></div>
+        <div class="row"><dt>담보</dt><dd>상해·질병 의료비 중심 / <b>휴대품 손해·항공기 지연 담보 없음</b></dd></div>
+      </dl>
+      <div class="foot"><span class="tag gold">전부 실물 출력</span></div>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3>📂 바우처·티켓 파일 위치</h3>
+    <p class="small" style="margin-bottom:10px">확정서·바우처·티켓 원본과 예약번호는 비공개 드라이브 <code>Wedding/신혼여행/01_확정서_바우처_티켓</code> 폴더와 <code>신혼여행마스터노트.md</code>에 있습니다. 이 공개 페이지에는 링크와 번호를 싣지 않았습니다.</p>
+    <p class="small">출력이 필요하면 위 폴더의 00~08번 PDF를 열어 한 번에 인쇄하세요.</p>
+  </div>
+
+  <div class="note" style="margin-top:14px"><b>라이언에어 앱 체크인 순서</b> — ① Ryanair 앱 실행 → ② Bookings 또는 Check-in → ③ 예약번호 + 예약 이메일 입력(드라이브 참고) → ④ 탑승권(QR) 확인·저장(폰 지갑에도 추가). 체크인은 출발 2~3일 전 열리며, 공항 카운터 발급은 유료입니다.</div>
+</section>
+
+<!-- ===================== 4. HOTELS ===================== -->
+<section id="hotels" class="anchor">
+  <div class="sec-head"><span class="sec-num">04</span><h2>확정 호텔 4곳</h2></div>
+  <p class="sec-desc">전부 조식 포함(B&amp;B). 체크인은 <b>바우처 + 여권 + 신용카드(데포짓)</b>. 평균 체크인 15:00 / 체크아웃 10:00경.</p>
+
+  <div class="grid two">
+    <div class="hotel">
+      <div class="top">
+        <div class="city">Madrid · 1박</div>
+        <h3>호텔 리아베니</h3>
+        <div class="en">Hotel Liabeny · DOUBLE STANDARD</div>
+      </div>
+      <div class="body">
+        <div class="row"><dt>숙박</dt><dd><b>11/29(일) ~ 11/30(월)</b> 1박</dd></div>
+        <div class="row"><dt>주소</dt><dd>Calle de la Salud 3, 28013 Madrid</dd></div>
+        <div class="row"><dt>전화</dt><dd><a href="tel:+34915319000">+34 915 319 000</a></dd></div>
+        <div class="row"><dt>Ref</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>체크인</dt><dd>15:00 이후 · 첫날 21시경 도착 → 프론트에 사전 안내 권장</dd></div>
+        <div class="acts">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Liabeny%20Calle%20de%20la%20Salud%203%20Madrid" target="_blank" rel="noopener">📍 지도</a>
+          <a class="btn call" href="tel:+34915319000">☎ 전화</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hotel">
+      <div class="top">
+        <div class="city">Barcelona · 2박</div>
+        <h3>악타 시티47</h3>
+        <div class="en">Acta City47 · DOUBLE SUPERIOR (더블베드)</div>
+      </div>
+      <div class="body">
+        <div class="row"><dt>숙박</dt><dd><b>11/30(월) ~ 12/02(수)</b> 2박</dd></div>
+        <div class="row"><dt>주소</dt><dd>Nicaragua 47, 08029 Barcelona</dd></div>
+        <div class="row"><dt>전화</dt><dd><a href="tel:+34933637474">+34 933 637 474</a></dd></div>
+        <div class="row"><dt>Ref</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>이동</dt><dd>산츠역에서 지하철 L5 (짐 2개) · RCDE 스타디움은 L8/R2</dd></div>
+        <div class="acts">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&amp;query=Acta%20City47%20Nicaragua%2047%20Barcelona" target="_blank" rel="noopener">📍 지도</a>
+          <a class="btn call" href="tel:+34933637474">☎ 전화</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hotel">
+      <div class="top">
+        <div class="city">Porto · 2박</div>
+        <h3>머큐어 포르투 센트루 산타 카타리나</h3>
+        <div class="en">Mercure Porto Centro Santa Catarina · Classic Double</div>
+      </div>
+      <div class="body">
+        <div class="row"><dt>숙박</dt><dd><b>12/02(수) ~ 12/04(금)</b> 2박</dd></div>
+        <div class="row"><dt>주소</dt><dd>Praça da Batalha 116, 4049-028 Porto</dd></div>
+        <div class="row"><dt>전화</dt><dd><a href="tel:+351222043300">+351 22 204 3300</a></dd></div>
+        <div class="row"><dt>Ref</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>이동</dt><dd>공항에서 지하철 E선 + 도보 또는 택시 20~25분 · 워킹투어 미팅지 도보권</dd></div>
+        <div class="acts">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&amp;query=Mercure%20Porto%20Centro%20Santa%20Catarina" target="_blank" rel="noopener">📍 지도</a>
+          <a class="btn call" href="tel:+351222043300">☎ 전화</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="hotel">
+      <div class="top">
+        <div class="city">Lisboa · 2박</div>
+        <h3>호텔 문디알</h3>
+        <div class="en">Hotel Mundial · DOUBLE CLASSIC</div>
+      </div>
+      <div class="body">
+        <div class="row"><dt>숙박</dt><dd><b>12/04(금) ~ 12/06(일)</b> 2박</dd></div>
+        <div class="row"><dt>주소</dt><dd>Praça Martim Moniz 2, 1100-341 Lisboa</dd></div>
+        <div class="row"><dt>전화</dt><dd><a href="tel:+351218842000">+351 21 884 2000</a></dd></div>
+        <div class="row"><dt>Ref</dt><dd><span class="mask">비공개</span></dd></div>
+        <div class="row"><dt>이동</dt><dd>오리엔트역 → 지하철 적색선 직결 · 28번 트램·Rossio 도보권</dd></div>
+        <div class="acts">
+          <a class="btn solid" href="https://www.google.com/maps/search/?api=1&amp;query=Hotel%20Mundial%20Praca%20Martim%20Moniz%202%20Lisboa" target="_blank" rel="noopener">📍 지도</a>
+          <a class="btn call" href="tel:+351218842000">☎ 전화</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid two" style="margin-top:14px">
+    <div class="card">
+      <h3>🧾 체크인 공통 안내</h3>
+      <table class="kv">
+        <tr><th>제시물</th><td>바우처(출력) + 여권 + 신용카드</td></tr>
+        <tr><th>데포짓</th><td>카드 프리오더 <b>€100~150</b> · 체크아웃 후 3주 내 승인취소</td></tr>
+        <tr><th>시티택스</th><td>1인 1박 <b>€5~10</b> (호텔별 상이, 현금 권장) → 4박 2인 €40~80</td></tr>
+        <tr><th>비상연락</th><td>바우처상 호텔 긴급번호 (드라이브 바우처 참고 · 월·금 08:00~17:00)</td></tr>
+        <tr><th>참고</th><td>유럽 호텔은 트윈/더블 구분이 없고 어메니티·슬리퍼가 없습니다</td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>🚨 호텔에서 문제가 생기면</h3>
+      <ul class="stack" style="gap:9px">
+        <li class="small"><b>예약을 못 찾는다</b> — 이름 구분 오류인 경우가 많습니다. 현장 결제/데포짓 후 영수증을 첨부해 한국 비상연락망에 메시지.</li>
+        <li class="small"><b>오버부킹</b> — <b>환불에 응하지 마세요.</b> 환불을 받으면 호텔 책임이 끝나 보상 협의가 불가합니다. 동급 호텔 이동 + 차액 보상 요청.</li>
+        <li class="small"><b>늦은 체크인</b> — 21시 이후 도착 시 호텔에 미리 연락(노쇼 방지). 마드리드 첫날이 해당.</li>
+        <li class="small"><b>짐 보관</b> — 마지막 날(12/6)은 체크아웃 후 프론트에 짐 보관 요청.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 5. FOOD ===================== -->
+<section id="food" class="anchor">
+  <div class="sec-head"><span class="sec-num">05</span><h2>현지 맛집 8곳 &amp; 라로카 빌리지 쇼핑</h2></div>
+  <p class="sec-desc">임훈 님이 직접 엄선한 리스트. 지도 링크를 누르면 바로 길 안내가 열립니다.</p>
+
+  <div class="cityband"><h3>🍮 에그타르트 랭킹</h3><div class="line"></div></div>
+  <div class="grid two">
+    <div class="food">
+      <span class="tag">에그타르트 1위 · 리스본</span>
+      <h4>파스테이스 드 벨렘</h4>
+      <div class="addr">Pastéis de Belém · R. de Belém 84-92, 1300-085 Lisboa</div>
+      <p class="tip">1837년부터 이어진 원조 나타의 성지. 제로니무스 수도원 바로 옆, 갓 구운 페이스트리에 시나몬을 톡톡. 12/5 벨렘 코스에서.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/yku668g5jpWEj7gw8?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+    <div class="food">
+      <span class="tag">에그타르트 2위 · 포르투</span>
+      <h4>카스트로 — 아틀리에 드 파스테이스 드 나타</h4>
+      <div class="addr">Castro · R. de Mouzinho da Silveira 61, 4050-420 Porto</div>
+      <p class="tip">상벤투역 인근. 통유리로 타르트 굽는 과정을 보며 먹는 세련된 아틀리에. 에스프레소와 찰떡. 12/3 워킹투어 직후 동선.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/oE6t72SN16Wcxd7S6?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+  </div>
+
+  <div class="cityband"><h3>🇪🇸 바르셀로나</h3><div class="line"></div></div>
+  <div class="grid two">
+    <div class="food">
+      <span class="tag gold">꿀대구</span>
+      <h4>비니투스</h4>
+      <div class="addr">Vinitus · Carrer d'Aragó 282, 08007 Barcelona</div>
+      <p class="tip"><b>꿀대구</b>(Bacalao al all i oli de miel), 맛조개(Navajas), 소고기 안심 타파스. 12/1 저녁 기본안으로 딱.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/1he2bC4S7DD93cUw7?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+    <div class="food">
+      <span class="tag gold">갈리시아 문어</span>
+      <h4>오 레토르노</h4>
+      <div class="addr">O'Retorno · Carrer del Comte d'Urgell 168, 08036 Barcelona</div>
+      <p class="tip">부드러운 갈리시아식 삶은 문어(Pulpo a la Gallega)와 해산물 타파스. 악타 시티47에서 멀지 않음.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/tXWdPw4gyWjrB1ur5?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+    <div class="food">
+      <span class="tag">볶음밥</span>
+      <h4>포 하노이</h4>
+      <div class="addr">Pho Hanoi · Carrer de la Diputació 218, 08011 Barcelona</div>
+      <p class="tip">베트남식 볶음밥이 진짜 맛있는 집. <b>고수를 싫어하면 주문할 때 “No cilantro / Sin cilantro”를 꼭</b> 말하세요.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/G3aYPt4kL16a72GW9?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+    <div class="food">
+      <span class="tag">디저트</span>
+      <h4>데마르티니 티라미수</h4>
+      <div class="addr">Demartini Tiramisù · Carrer dels Carders 44, 08003 Barcelona</div>
+      <p class="tip">보른 지구 수제 티라미수 전문점. 클래식·피스타치오 등 종류별로 하나씩. 12/1 오후 산책 코스에 포함.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/GnZ7waCkEj91e3wz7?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+    <div class="food">
+      <span class="tag">스테이크</span>
+      <h4>카르날 스테이크 하우스</h4>
+      <div class="addr">Carnal Steak House · Carrer d'Enric Granados 52, 08008 Barcelona</div>
+      <p class="tip">드라이에이징 고기 구이와 비프·이베리코 타르타르. 저녁은 예약하고 가는 편이 안전합니다.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/4V5F1duYnVWXhXqi9?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+  </div>
+
+  <div class="cityband"><h3>🇵🇹 포르투</h3><div class="line"></div></div>
+  <div class="grid two">
+    <div class="food">
+      <span class="tag gold">황인범 단골</span>
+      <h4>아 타스키냐 두스 긴다이스</h4>
+      <div class="addr">A Tasquinha Dos Guindais · Escada dos Guindais 34, 4000-276 Porto</div>
+      <p class="tip">동 루이스 1세 다리 옆 긴다이스 계단. 축구선수 황인범을 좋아하는 사장님의 도루강 뷰 노포 — <b>숯불 정어리구이</b>와 문어밥 필수. 12/3 저녁.</p>
+      <div class="links"><a class="maps" href="https://maps.app.goo.gl/Pn1NxwDyWsn2Kggp8?g_st=ic" target="_blank" rel="noopener">📍 지도 열기</a></div>
+    </div>
+  </div>
+
+  <div class="cityband"><h3>🛍️ 라로카 빌리지 (La Roca Village)</h3><div class="line"></div></div>
+  <div class="grid two">
+    <div class="card">
+      <h3>기본 정보</h3>
+      <table class="kv">
+        <tr><th>위치</th><td>바르셀로나 북동쪽 35~40km · 전용차량 약 40분</td></tr>
+        <tr><th>주소</th><td>La Roca Village s/n, 08430 Santa Agnès de Malanyanes, Barcelona</td></tr>
+        <tr><th>영업</th><td><b>매일 10:00 ~ 21:00</b> (연중무휴, 야외 빌리지)</td></tr>
+        <tr><th>일정</th><td>12/2 VIP 투어 선택지(추가 지불 없음) 또는 12/1 16:00 셔틀(Estació del Nord)로 개별 방문</td></tr>
+        <tr><th>지도</th><td><a href="https://maps.app.goo.gl/wShj4yEwzTqH5Hre9" target="_blank" rel="noopener">📍 구글 지도</a> · <a href="https://www.thebicestercollection.com/la-roca-village/en" target="_blank" rel="noopener">공식 홈페이지</a></td></tr>
+      </table>
+      <div class="warnline">12/2에 갈 경우 <b>19:20 비행기</b>라 쇼핑은 <b>16:00까지</b> 마무리하고 차량으로 BCN 공항 직행. 캐리어를 차에 실고 이동하는 4일차 선택이 가장 편합니다.</div>
+    </div>
+    <div class="card">
+      <h3>브랜드 &amp; 꿀팁</h3>
+      <p class="small"><b>스페인 로컬</b> — 로에베(가방·머플러), 캠퍼(2켤레 추가 할인 잦음), 토스, 만다리나덕<br>
+        <b>럭셔리</b> — 구찌·프라다·버버리·생로랑·몽클레르·발렌시아가<br>
+        <b>캐주얼</b> — 폴로 랄프로렌, 바버, 산드로, 마쥬, 코치, 투미, 나이키, 아디다스 (약 150개 입점)</p>
+      <ol class="steps" style="margin-top:12px">
+        <li><b>VIP 10% 추가 할인 패스</b> — 인포메이션 센터 또는 홈페이지 멤버십 가입 후 QR 수령. 결제마다 제시(일부 브랜드 제외).</li>
+        <li><b>대한항공 마일리지</b> — 인포메이션 데스크에 당일 영수증 + 스카이패스 번호 제시 → 1유로당 1마일.</li>
+        <li><b>택스리펀 서류</b> — 스페인은 최소 구매금액 없음(0원부터). 결제 시 여권 제시 후 <b>DIVA 바코드 영수증</b> 수령. 아울렛 사설 환급 데스크는 수수료가 크니 서류만 챙기고 리스본 공항에서 환급.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== 6. CHECKLIST ===================== -->
+<section id="checklist" class="anchor">
+  <div class="sec-head"><span class="sec-num">06</span><h2>사전 준비물 체크리스트 &amp; 출국 전 할 일</h2></div>
+  <p class="sec-desc">체크 상태는 이 폰에 자동 저장됩니다(같은 브라우저에서 다시 열면 유지).</p>
+
+  <div class="chk-head">
+    <div class="bar"><i id="chk-bar"></i></div>
+    <div class="count"><b id="chk-done">0</b> / <span id="chk-total">0</span> 완료</div>
+    <button class="btn sm" id="chk-reset" type="button">초기화</button>
+  </div>
+
+  <fieldset class="chk-group">
+    <legend>📄 서류 · 티켓</legend>
+    <label class="chk"><input type="checkbox" data-key="doc-passport"><span>여권 — 유효기간 6개월 이상 + <b>서명란 서명</b><small>서명이 없으면 위조 의심으로 문제될 수 있음 · 낙서·기념도장 금지</small></span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-eticket"><span>대한항공 e-티켓 출력본 + 모바일 저장<small>귀국 수속에서 요구될 수 있어 마지막까지 소지</small></span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-vouchers"><span>팜투어 바우처 <b>전부 실물 출력</b> — 호텔 4 · 열차 2 · 픽업 1 · 이용안내</span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-insurance"><span>여행자보험 가입확인서 출력<small>질병·상해만 보장 / 휴대품 손해 없음</small></span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-ryanair"><span>라이언에어 앱 설치 + QR 탑승권 저장 (예약번호는 드라이브 참고)</span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-sagrada"><span>사그라다 파밀리아 티켓(12/1 13:30) 폰 저장 + 공식 앱 설치</span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-espanyol"><span>에스파뇰 티켓 2매 PDF 저장</span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-trains"><span>AVE·AP 승차권 출력 (여권 지참 필수)</span></label>
+    <label class="chk"><input type="checkbox" data-key="doc-guide"><span>이 가이드 HTML 오프라인 저장(홈 화면 추가)</span></label>
+  </fieldset>
+
+  <fieldset class="chk-group">
+    <legend>📱 통신 · 전자기기</legend>
+    <label class="chk"><input type="checkbox" data-key="tel-esim"><span>유럽 통합 eSIM 2매 (신랑·신부)<small>설치는 출국 직전, 리스본 픽업 기사 미팅 전까지 교체 금지</small></span></label>
+    <label class="chk"><input type="checkbox" data-key="tel-battery"><span>보조배터리 10,000~20,000mAh (기내 휴대만 가능)</span></label>
+    <label class="chk"><input type="checkbox" data-key="tel-charger"><span>3포트 멀티 고속충전기 + 긴 C타입 케이블</span></label>
+    <label class="chk"><input type="checkbox" data-key="tel-adapter"><span>유럽 멀티 어댑터 (C/F형) 2개</span></label>
+    <label class="chk"><input type="checkbox" data-key="tel-earphone"><span><b>3.5mm 유선 이어폰 2개</b> — 포르투 워킹투어 수신기 필수</span></label>
+  </fieldset>
+
+  <fieldset class="chk-group">
+    <legend>💳 금융 · 결제</legend>
+    <label class="chk"><input type="checkbox" data-key="pay-travel"><span>트래블 카드(트래블로그/트래블월렛) 실물 2장 — 발급 3~5일 소요</span></label>
+    <label class="chk"><input type="checkbox" data-key="pay-credit"><span>비상용 신용카드 2~3장 (본인 명의 VISA/MASTER)<small>호텔 데포짓은 트래블월렛류 불가 · BC 무표시 카드 불가</small></span></label>
+    <label class="chk"><input type="checkbox" data-key="pay-cash"><span>유로 현금 €400~500 (소액권 위주)<small>시티택스 €40~80 + 구엘공원 €36 + 교통 €30 + VIP스냅 €60</small></span></label>
+    <label class="chk"><input type="checkbox" data-key="pay-dcc"><span>카드사 해외사용 해제 + <b>DCC(원화결제) 차단</b> 설정</span></label>
+  </fieldset>
+
+  <fieldset class="chk-group">
+    <legend>🛡️ 소매치기 방지</legend>
+    <label class="chk"><input type="checkbox" data-key="sec-strap"><span>스마트폰 도난방지 스프링줄 / 손목 스트랩</span></label>
+    <label class="chk"><input type="checkbox" data-key="sec-pin"><span>가방 지퍼용 미니 옷핀·카라비너</span></label>
+    <label class="chk"><input type="checkbox" data-key="sec-bag"><span>외투 안에 메는 슬림 슬링백 / 복대</span></label>
+    <label class="chk"><input type="checkbox" data-key="sec-fold"><span>쇼핑 대비 접이식 보조가방</span></label>
+  </fieldset>
+
+  <fieldset class="chk-group">
+    <legend>🛏️ 호텔 · 비행 편의</legend>
+    <label class="chk"><input type="checkbox" data-key="fly-slipper"><span>일회용·접이식 슬리퍼 (유럽 호텔 미제공)</span></label>
+    <label class="chk"><input type="checkbox" data-key="fly-toiletry"><span>휴대용 칫솔·치약·클렌징 키트</span></label>
+    <label class="chk"><input type="checkbox" data-key="fly-shower"><span>여행용 샤워기 필터 + 리필</span></label>
+    <label class="chk"><input type="checkbox" data-key="fly-stocking"><span>압박스타킹 + 목베개 (13~15시간 비행)</span></label>
+    <label class="chk"><input type="checkbox" data-key="fly-feet"><span>휴족시간·파스 (하루 2만 보 대비)</span></label>
+  </fieldset>
+
+  <fieldset class="chk-group">
+    <legend>💊 상비약</legend>
+    <label class="chk"><input type="checkbox" data-key="med-cold"><span>종합감기약</span></label>
+    <label class="chk"><input type="checkbox" data-key="med-pain"><span>진통제 (타이레놀·이부프로펜)</span></label>
+    <label class="chk"><input type="checkbox" data-key="med-digest"><span>소화제 · 지사제(물갈이 대비)</span></label>
+    <label class="chk"><input type="checkbox" data-key="med-band"><span>밴드·연고·인공눈물</span></label>
+  </fieldset>
+
+  <fieldset class="chk-group">
+    <legend>🧥 의류 · 잡화</legend>
+    <label class="chk"><input type="checkbox" data-key="wear-winter"><span>초겨울 의류 (8~15℃, 아침저녁 쌀쌀)</span></label>
+    <label class="chk"><input type="checkbox" data-key="wear-shoes"><span>편한 운동화 1켤레 + 여분</span></label>
+    <label class="chk"><input type="checkbox" data-key="wear-umbrella"><span>미니 접이식 우산</span></label>
+    <label class="chk"><input type="checkbox" data-key="wear-wipes"><span>물티슈·휴대용 티슈</span></label>
+  </fieldset>
+
+  <fieldset class="chk-group">
+    <legend>✅ 출국 전 할 일 (D-13 ~ 당일)</legend>
+    <label class="chk"><input type="checkbox" data-key="todo-ryanair"><span>라이언에어 앱 체크인 (출발 2~3일 전 오픈) + QR 저장</span></label>
+    <label class="chk"><input type="checkbox" data-key="todo-vip"><span>11/30 도착 직후 <b>“12/2 VIP 오전 배정 + 16:30 공항 이동”</b> 요청</span></label>
+    <label class="chk"><input type="checkbox" data-key="todo-print"><span>바우처·티켓 일괄 출력 (공항/호텔에서 바로 꺼낼 수 있게 한 파일로)</span></label>
+    <label class="chk"><input type="checkbox" data-key="todo-cash"><span>유로 현금 환전 (€400~500)</span></label>
+    <label class="chk"><input type="checkbox" data-key="todo-airport"><span>공항 3시간 전 도착 계획 (11/29 09:10 인천 T2)</span></label>
+    <label class="chk"><input type="checkbox" data-key="todo-home"><span>집 열쇠·가스·우편·택배 확인, 귀가 택시 예상(12/7 20:00~20:30)</span></label>
+    <label class="chk"><input type="checkbox" data-key="todo-roaming"><span>폰 해외 로밍/eSIM 활성화 시점 정리</span></label>
+    <label class="chk"><input type="checkbox" data-key="todo-medicine"><span>상비약·처방약 챙기기 (처방전 영문 사본 권장)</span></label>
+  </fieldset>
+
+  <div class="card" style="margin-top:6px">
+    <h3>🎯 출국 전 반드시 (우선순위)</h3>
+    <ol class="steps">
+      <li><b>라이언에어 앱 체크인</b> — 종이 탑승권이 없습니다. 이거 하나로 탑승이 막힐 수 있음.</li>
+      <li><b>3.5mm 유선 이어폰 2개</b> — 없으면 워킹투어 내내 수신기를 못 씀.</li>
+      <li><b>사그라다 파밀리아</b> — 이미 예매 완료. 여권 실물과 공식 앱만 준비.</li>
+      <li><b>유로 현금</b> — 시티택스·구엘공원·투어 현지지불은 카드가 안 되는 곳이 있음.</li>
+      <li><b>바우처 전부 출력</b> — 특히 리스본 픽업 바우처는 기사 미팅의 핵심.</li>
+      <li><b>귀중품 최소화</b> — 휴대품 손해 담보가 없으므로 예물반지·시계는 두고 가는 편이 안전.</li>
+      <li><b>12/2 VIP 오전 배정 요청</b> — 도착 직후 현지 담당자에게. 오늘 안 하면 다음 날 비행기를 놓칠 수 있음.</li>
+      <li><b>귀국 도착 19:20</b> — 귀가·다음날 일정은 20:00~20:30 도착 기준으로.</li>
+    </ol>
+  </div>
+</section>
+
+<!-- ===================== 7. TIPS ===================== -->
+<section id="tips" class="anchor">
+  <div class="sec-head"><span class="sec-num">07</span><h2>유럽여행 필수 팁 · 택스리펀 · 비상연락망</h2></div>
+  <p class="sec-desc">현지에서 당황하지 않도록. 택스리펀은 순서를 틀리면 환급이 날아갑니다.</p>
+
+  <div class="grid two">
+    <div class="card">
+      <h3>🧾 택스리펀 3단계</h3>
+      <ol class="steps">
+        <li><b>매장에서 서류 발급</b> — 여권 제시, DIVA 바코드 영수증 수령. 스페인은 최소 구매금액 제한 없음(0원부터).</li>
+        <li><b>리스본 공항 세관 도장</b> — 최종 출국지인 LIS에서 일괄 처리. <b>위탁수하물 부치기 전에</b> 세관 데스크에서 도장·키오스크 스캔. 물품 소지 필요(가방에 넣으면 확인 요구 시 곤란).</li>
+        <li><b>환급 수령</b> — 카드 환급은 1~2개월 뒤 청구서에 반영. 서류 사진을 남겨두세요.</li>
+      </ol>
+      <div class="warnline">스위스는 EU가 아니지만 이번 일정과 무관. 포르투갈에서 산 물건도 리스본에서 한 번에 처리됩니다.</div>
+    </div>
+
+    <div class="card">
+      <h3>🛡️ 소매치기 수법 — 전부 무시</h3>
+      <ul class="stack" style="gap:7px">
+        <li class="small">팔찌·반지 채워주기 / 사진 찍어주기</li>
+        <li class="small">지하철 발권 도와주기, 개찰구 앞에서 막기</li>
+        <li class="small">경찰 사칭 — 지갑을 보여달라고 하면 절대 응하지 않기</li>
+        <li class="small">짐 들어주기, 기차 선반에 카메라·가방 두지 않기</li>
+        <li class="small">가방은 몸 앞쪽, 지퍼는 옷핀으로 고정. 사람 많은 광장·트램 28번·람블라스 주의.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🚆 이동 &amp; 현지 매너</h3>
+      <ul class="stack" style="gap:7px">
+        <li class="small"><b>열차</b> — 전광판에서 편명·플랫폼 재확인 후 티켓의 차량(코치) 번호 확인. AVE는 출발 2분 전 게이트 폐쇄.</li>
+        <li class="small"><b>라이언에어</b> — 스케줄 변경·결항이 잦음. 당일 취소 시 공항에서 <b>환불 확약서</b>를 받고 대체편 발권.</li>
+        <li class="small"><b>식당</b> — 저녁은 20:30 이후 시작. 인기 집은 예약. 팁은 보통 5% 내외(카드 결제 시 선택).</li>
+        <li class="small"><b>화장실</b> — 광장·역 화장실은 €0.5~1 동전 준비.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>🧳 보험·안전</h3>
+      <ul class="stack" style="gap:7px">
+        <li class="small"><b>휴대품 손해 담보 없음</b> — 도난·분실 보상 불가. 현금은 보상 대상 아님.</li>
+        <li class="small">도난 시 <b>경찰서 Police Report</b> 필수(보험 청구 요건). 여권 분실은 대사관 영사과.</li>
+        <li class="small">병원 진료 시 진단서·영수증 <b>원본</b> 보관.</li>
+        <li class="small">자유시간 중 개별 사고·도난·질병은 여행사 책임 없음.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card" style="margin-top:14px">
+    <h3>☎️ 비상연락망 — 눌러서 바로 걸기</h3>
+    <p class="small muted" style="margin-bottom:8px">보이스톡은 벨이 울리지 않는 경우가 많습니다. <b>반드시 일반 국제전화</b>로, 한 번에 안 되면 두세 번 거세요.</p>
+    <div class="contact">
+      <div class="who"><b>팜투어 서울 담당자</b><span>기차·호텔 등 한국에서 수배한 사항</span></div>
+      <div class="num"><span class="mask">연락처는 드라이브 마스터노트·확정서 참고</span></div>
+    </div>
+    <div class="contact">
+      <div class="who"><b>스페인 현지 담당자</b><span>가이드 투어·현지 문제</span></div>
+      <div class="num"><span class="mask">연락처는 드라이브 마스터노트·확정서 참고</span></div>
+    </div>
+    <div class="contact">
+      <div class="who"><b>리스본 픽업 기사 (Suntransfers)</b><span>12/6 17:00 픽업 · 5분 내 못 찾으면 즉시 전화</span></div>
+      <div class="num"><span class="mask">연락처는 픽업 바우처 Priority 번호 참고</span></div>
+    </div>
+    <div class="contact">
+      <div class="who"><b>포르투 가이드</b><span>12/3 워킹투어 · 미팅 장소는 Praça da Trindade</span></div>
+      <div class="num"><span class="mask">카카오톡 오픈채팅 링크는 드라이브 마스터노트 참고</span></div>
+    </div>
+    <div class="contact">
+      <div class="who"><b>트래블로버 (여행자보험 24시간)</b><span>긴급 선지급·통역 · 카톡 ID ‘트래블로버’</span></div>
+      <div class="num">1644-5544</div>
+      <a class="btn call" href="tel:16445544">☎ 전화</a>
+    </div>
+    <div class="contact">
+      <div class="who"><b>팜투어 본사</b><span>패키지·보험 일반 문의</span></div>
+      <div class="num">02-2003-6600</div>
+      <a class="btn call" href="tel:+82220036600">☎ 전화</a>
+    </div>
+    <div class="contact">
+      <div class="who"><b>외교부 영사콜센터 (24시간)</b><span>해외에서 사고·체포·사망·여권 분실</span></div>
+      <div class="num">+82-2-3210-0404</div>
+      <a class="btn call" href="tel:+82232100404">☎ 전화</a>
+    </div>
+    <div class="contact">
+      <div class="who"><b>주스페인 대한민국 대사관</b><span>마드리드 · 긴급 +34-648-924-695</span></div>
+      <div class="num">+34-91-353-2000</div>
+      <a class="btn call" href="tel:+34913532000">☎ 전화</a>
+      <a class="btn" href="tel:+34648924695">☎ 긴급</a>
+    </div>
+    <div class="contact">
+      <div class="who"><b>주포르투갈 대한민국 대사관</b><span>리스본 · 긴급 +351-91-079-5055</span></div>
+      <div class="num">+351-21-793-7200</div>
+      <a class="btn call" href="tel:+351217937200">☎ 전화</a>
+      <a class="btn" href="tel:+351910795055">☎ 긴급</a>
+    </div>
+    <div class="contact">
+      <div class="who"><b>호텔 바우처 긴급번호 (팜투어)</b><span>월·금 08:00~17:00 · 번호는 드라이브 바우처 참고</span></div>
+      <div class="num"><span class="mask">비공개</span></div>
+    </div>
+  </div>
+
+  <div class="grid two" style="margin-top:14px">
+    <div class="card">
+      <h3>🧭 여행 중 하루 점검 (30초)</h3>
+      <ul class="stack" style="gap:6px">
+        <li class="small">□ 내일 첫 일정 시각과 미팅 장소 확인</li>
+        <li class="small">□ 바우처·티켓 오늘 쓸 것 폰/종이에 준비</li>
+        <li class="small">□ 현금 잔액 확인 (시티택스·입장료)</li>
+        <li class="small">□ 폰 충전 100% + 보조배터리</li>
+        <li class="small">□ 내일 이동편 편명·시간 캡처</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>📌 기록해 둘 것</h3>
+      <p class="small">• 사그라다 파밀리아 티켓은 <b>비양도</b> — 이름 확인되므로 교환 불가<br>
+        • 리스본 공항 도착은 17:30~18:00, KE922 21:05 출발 → 면세·택스리펀 시간 충분<br>
+        • 12/7 인천 도착 19:20, 수하물 수령 후 20:00~20:30 귀가<br>
+        • 시차: 스페인 -8시간, 포르투갈 -9시간(한국 기준). 포르투는 스페인보다 1시간 느림</p>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap">
+    <div>스페인 · 포르투갈 신혼여행 가이드 · 임훈 &amp; 오윤경 · 2026.11.29 — 12.07</div>
+    <div>공개용 요약본 · 예약번호·연락처는 드라이브 <code>Wedding/신혼여행</code> 참고 · 원본: <code>신혼여행마스터노트.md</code> · 팜투어 확정서(2026-11-16) · 사그라다 파밀리아 공식 티켓</div>
+  </div>
+</footer>
+
+<button id="toTop" type="button" aria-label="맨 위로">↑</button>
+
+<script>
+(function(){
+  "use strict";
+
+  /* ---- countdown ---- */
+  var cdDay = document.getElementById('cd-day');
+  var cdLabel = document.getElementById('cd-label');
+  if (cdDay) {
+    var dep = new Date(2026, 10, 29); // 11/29
+    var ret = new Date(2026, 11, 7);  // 12/7
+    var now = new Date();
+    var d0 = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var dayMs = 86400000;
+    var diff = Math.round((dep - d0) / dayMs);
+    var back = Math.round((d0 - ret) / dayMs);
+    if (diff > 0) {
+      cdLabel.textContent = '출국까지';
+      cdDay.textContent = 'D-' + diff;
+    } else if (back > 0) {
+      cdLabel.textContent = '';
+      cdDay.textContent = '여행을 마쳤습니다';
+    } else {
+      var n = Math.round((d0 - dep) / dayMs) + 1;
+      cdLabel.textContent = now >= dep && n > 1 ? '여행' : '출발일';
+      cdDay.textContent = (n >= 1 && n <= 9) ? ('D+' + (n - 1) + ' · ' + n + '일차') : '여행 중';
+    }
+  }
+
+  /* ---- expand / collapse all ---- */
+  var days = Array.prototype.slice.call(document.querySelectorAll('details.day'));
+  var toggleAll = document.getElementById('toggleAll');
+  function setAll(open) {
+    days.forEach(function(d){ d.open = open; });
+    if (toggleAll) toggleAll.textContent = open ? '전체 접기' : '전체 펼치기';
+  }
+  if (toggleAll) {
+    toggleAll.addEventListener('click', function(){
+      var anyClosed = days.some(function(d){ return !d.open; });
+      setAll(anyClosed);
+    });
+  }
+  if (window.matchMedia && window.matchMedia('(min-width: 900px)').matches) {
+    setAll(true);
+  }
+
+  /* ---- scroll spy ---- */
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav a'));
+  var sections = links.map(function(a){
+    return document.querySelector(a.getAttribute('href'));
+  }).filter(Boolean);
+  function spy() {
+    var y = window.scrollY + 120;
+    var current = sections[0];
+    sections.forEach(function(s){ if (s.offsetTop <= y) current = s; });
+    links.forEach(function(a){
+      var on = current && a.getAttribute('href') === '#' + current.id;
+      a.classList.toggle('active', !!on);
+    });
+  }
+  window.addEventListener('scroll', spy, {passive:true});
+  spy();
+
+  /* ---- back to top ---- */
+  var top = document.getElementById('toTop');
+  if (top) {
+    window.addEventListener('scroll', function(){
+      if (window.scrollY > 600) top.classList.add('show');
+      else top.classList.remove('show');
+    }, {passive:true});
+    top.addEventListener('click', function(){
+      window.scrollTo({top:0, behavior:'smooth'});
+    });
+  }
+
+  /* ---- checklist with localStorage ---- */
+  var KEY = 'honeymoon-guide-check-public-v1';
+  var boxes = Array.prototype.slice.call(document.querySelectorAll('.chk input[type="checkbox"]'));
+  var doneEl = document.getElementById('chk-done');
+  var totalEl = document.getElementById('chk-total');
+  var barEl = document.getElementById('chk-bar');
+  var resetBtn = document.getElementById('chk-reset');
+
+  var saved = {};
+  try {
+    saved = JSON.parse(localStorage.getItem(KEY) || '{}') || {};
+  } catch (e) { saved = {}; }
+
+  boxes.forEach(function(box){
+    var k = box.getAttribute('data-key');
+    if (saved[k]) box.checked = true;
+    box.addEventListener('change', function(){
+      saved[k] = box.checked;
+      try { localStorage.setItem(KEY, JSON.stringify(saved)); } catch (e) {}
+      paint();
+    });
+  });
+
+  function paint() {
+    var done = boxes.filter(function(b){ return b.checked; }).length;
+    if (doneEl) doneEl.textContent = done;
+    if (totalEl) totalEl.textContent = boxes.length;
+    if (barEl) barEl.style.width = boxes.length ? (done / boxes.length * 100).toFixed(1) + '%' : '0%';
+  }
+  paint();
+
+  if (resetBtn) {
+    resetBtn.addEventListener('click', function(){
+      if (!window.confirm('체크한 항목을 모두 해제할까요?')) return;
+      boxes.forEach(function(b){ b.checked = false; });
+      saved = {};
+      try { localStorage.removeItem(KEY); } catch (e) {}
+      paint();
+    });
+  }
+
+  /* ---- print: open all days ---- */
+  window.addEventListener('beforeprint', function(){ days.forEach(function(d){ d.open = true; }); });
+})();
+</script>
+</body>
+</html>
