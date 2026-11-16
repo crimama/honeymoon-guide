@@ -11,3 +11,5 @@
 예약번호와 개인 연락처는 공개 페이지에 싣지 않았습니다.
 
 https://crimama.github.io/honeymoon-guide/
+
+최종 갱신: 2026-11-16
