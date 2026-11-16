@@ -91,6 +91,7 @@ section{padding:44px 0 6px;scroll-margin-top:74px}
 .grid{display:grid;gap:14px}
 .grid.two{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
 .grid.three{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.grid.four{grid-template-columns:repeat(auto-fit,minmax(min(100%,420px),1fr))}
 .stack{display:grid;gap:14px}
 .card h3{font-size:16.5px;margin-bottom:8px;display:flex;align-items:center;gap:8px}
 .card h4{font-size:14px;margin:14px 0 6px;color:var(--navy-2)}
@@ -124,6 +125,9 @@ section{padding:44px 0 6px;scroll-margin-top:74px}
 .note{background:#f3f5ee;border:1px solid #dfe3d3;border-left:5px solid var(--olive);
   border-radius:12px;padding:12px 15px;font-size:13.5px;color:#4d5540}
 .note b{color:#3d4632}
+.hero .note{margin-top:18px;background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.22);color:#efe7d8}
+.hero .note b{color:#f8ddb2}
+.hero .note code{background:rgba(255,255,255,.14);border-color:rgba(255,255,255,.28);color:#f6ecd8}
 .warnline{font-size:13px;color:#8e3d20;background:#fbeae1;border-radius:8px;padding:8px 11px;margin-top:8px}
 
 /* ---------- day accordion ---------- */
@@ -318,7 +322,7 @@ label.chk span small{display:block;color:var(--muted);font-size:12px;text-decora
       <span class="badge">팜투어 세미패키지</span>
       <span class="badge">4성급 4곳 · 전부 조식 포함</span>
     </div>
-    <div class="note" style="margin-top:18px;background:rgba(255,255,255,.10);border-color:rgba(255,255,255,.22);color:#eee6d6">
+    <div class="note hero-note">
       <b>공개용 요약본</b> — 예약번호·개인 연락처는 싣지 않았습니다. 여행 중 예약 확인은 드라이브 <code>Wedding/신혼여행</code>의 마스터노트·바우처를 보세요.
     </div>
     <div class="countdown" id="cd">
@@ -1046,7 +1050,7 @@ label.chk span small{display:block;color:var(--muted);font-size:12px;text-decora
   <div class="sec-head"><span class="sec-num">07</span><h2>유럽여행 필수 팁 · 택스리펀 · 비상연락망</h2></div>
   <p class="sec-desc">현지에서 당황하지 않도록. 택스리펀은 순서를 틀리면 환급이 날아갑니다.</p>
 
-  <div class="grid two">
+  <div class="grid four">
     <div class="card">
       <h3>🧾 택스리펀 3단계</h3>
       <ol class="steps">
